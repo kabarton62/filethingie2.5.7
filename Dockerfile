@@ -12,5 +12,5 @@ RUN rm -r /var/www/html
 RUN mv filethingie-master/ /var/www/html/
 
 # Transfer key files to install filethingie 2.5.7.
-COPY ./filethingie-master/* /var/www/html/*
+COPY ./filethingie-master/* /var/www/html/
 
